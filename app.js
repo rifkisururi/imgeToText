@@ -47,6 +47,10 @@ app.post('/ocr', async (req, res) => {
   }
 });
 
+app.post('/', async (req, res) => {
+  res.send("running");
+});
+
 // Start the Express server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
