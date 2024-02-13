@@ -47,7 +47,7 @@ app.post('/ocr', async (req, res) => {
   }
 });
 
-app.post('/', async (req, res) => {
+app.get('/', async (req, res) => {
   res.send("running");
 });
 
